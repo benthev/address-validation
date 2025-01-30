@@ -39,7 +39,7 @@ with open(input_file, newline="", encoding="utf-8") as csvfile:
                     EC.presence_of_element_located((By.ID, "tAddress")))
                 if apt_input:
                     apt_field = driver.find_element(By.ID, "tCity")
-                city_field = driver.find_element(By.ID, "tCity")
+                city_field = driver.find_element(By.ID, "tApt")
                 state_field = driver.find_element(By.ID, "tState")
                 zip_field = driver.find_element(By.ID, "tZip-byaddress")
                 submit_button = driver.find_element(By.ID, "zip-by-address")
